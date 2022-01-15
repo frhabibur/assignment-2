@@ -1,0 +1,357 @@
+/* ===============google fonts================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* ===============================universal css START================================ */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width:1100px;
+    margin:0 auto;
+    padding:30px;
+}
+section{
+    margin:50px 0;
+}
+.button-style{
+    padding:10px 24px;
+    background-color: #E02C6D;
+    color:#fff;
+    font-weight: bold;
+    outline:none;
+    border:none;
+    border-radius: 50px;
+    font-size:16px;
+    cursor:pointer;
+}
+.button-style:hover{
+    background-color: #ec578d;
+}
+a{
+    text-decoration: none;
+}
+#arrow-icon{
+    font-size:16px;
+    color:#fff;
+}
+/* ===============================universal css END================================ */
+
+/* ================Header styleys start==================== */
+   
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bar {
+        display:none;
+        
+    }
+    .logo h2{
+        color:#3A3A3A;
+    }
+    ul{
+        display: flex;
+    }
+    ul li{
+        list-style: none;
+        margin-right:20px;
+        padding:10px;
+        font-weight: 400;
+    }
+    ul li a{
+        color: #3A3A3A;
+        font-weight: 500;
+        transition:all .3s;
+    }
+    ul li a:hover {
+       color:#ec578d
+    }
+    ul li .fas{
+        font-size:16px;
+        color: #3A3A3A;
+    }
+    ul li .fas:hover{
+        color:#ec578d
+    }
+/* ================Header styleys End==================== */
+/* ========================BANNER PART STYLES START============== */
+.banner-part{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.banner-title{
+    font-size:52px;
+    color:#3A3A3A;
+}
+/* banner left */
+.banner-left {
+    width:56%;
+}
+
+.banner-left p{
+    font-size:17px;
+}
+.preebook-button{
+    margin-top:16px;
+}
+/* banner right */
+.banner-right img{
+    width:440px;
+    height:410px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform .3s;
+}
+.banner-right img:hover{
+    transform:scale(1.1)
+}
+.brands-box{
+    width:986px;
+    height:39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px 3px #f4f4f7;
+    margin:50px auto;
+    padding:50px 10px;
+    
+}
+.brands-box img{
+    width:80px;
+    height:39px;
+    margin:20px 0;
+}
+/* ========================BANNER PART STYLES END============== */
+                /* ^ */
+/* ========================COLLACTON PART STYLES START============== */
+    .collection-title{
+        font-size:28px;
+        color:#3A3A3A;
+        text-align: center;
+        margin-bottom:50px;
+    }
+    .collection-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:30px;
+        
+    }
+    .single-collection{
+        padding:15px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        overflow: hidden;
+       
+    }
+    
+    .single-collection img:hover{
+        transform:scale(1.1);
+        transition:transform .3s;
+    }
+    .product-name,.product-price{
+        font-size:28px;
+        color:#18191F;
+        font-weight: 400;
+    }
+    .product-price{
+        font-size:24px;
+    }
+    .fas{
+        color:#FB8200;
+        font-size:11px;
+        list-style: 25px;
+    }
+    .ratings span ,p{
+        color:#787885;
+        font-size:14px;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+    .seemore, a , .semore-icon {
+        color:#E02C6D;
+        text-align: right;
+        margin-top: 50px;
+        font-size:16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+   
+/* ========================COLLACTON PART STYLES END============== */
+    .accosories{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+    .accosories-button{
+        margin-top:20px;
+        border-radius: 5px;
+    }
+    .accories-details{
+       margin-top:20px;
+       margin-left: -35px;
+    }
+    .accories-details h1{
+        font-size:30px;
+        margin-bottom:10px;
+    }
+    .accories-details  p{
+        line-height:25px;
+        font-size: 18px;
+    }
+/* ==========================FOOTER START==================== */
+footer{
+    /* width:1440px; */
+    background: #0A0826;
+    color:#fff;
+    padding:50px 0px;
+   
+    
+}
+
+
+.footer-information{
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.footer-information h2{
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.footer-information p {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 2em;
+}
+.social-links .fab {
+   width:32px;
+   height: 32px;
+   background:#22203b;
+   border-radius: 50%;
+   line-height: 33px;
+}
+.social-links {
+    margin: 0px auto;
+    margin-top: 20px;
+}
+/* ==========================FOOTER END==================== */
+
+
+/* mobile device */
+@media only screen and (max-width:688px){
+    nav .logo{
+        margin:auto;
+    }
+    nav ul{
+        display: none;
+    }
+    .container, #banner .container{
+        width:100%;
+        margin: 0 auto;
+    }
+    .banner-part{
+        flex-direction: column;
+
+    }
+    .banner-left{
+        text-align: center;
+        order: 2;
+        margin-top: 20px;
+    }
+    .banner-right img{
+        width:257px;
+        height:257px;
+    }
+    .banner-title{
+        font-size:28px;
+    }
+    .brands-box{
+        width:100%;
+        padding:30px;
+        flex-wrap: wrap;
+    }
+    .brands-box img{
+        margin-top:10px;
+    }
+    .collection-title{
+        margin-top:100px;
+    }
+    .collection-items{
+        grid-template-columns: 1fr;
+        margin:0 auto;
+    }
+    .single-collection img{
+        width:100%;
+    }
+    .accosories{
+        grid-template-columns: 1fr;
+    }
+    .accosories img{
+        width:100%;
+        height:350px;
+    }
+    .accories-details{
+        margin-left:0;
+    }
+    .footer-information {
+        text-align: center;
+    }
+   
+}
+
+/* tablet */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    nav ul{
+        display: none;
+    }
+    .container, #banner .container{
+        width:100%;
+        margin: 0 auto;
+    }
+    .banner-part{
+        flex-direction: column;
+    }
+    .banner-left{
+        text-align: center;
+        order: 2;
+        margin-top: 20px;
+        width:500px;
+    }
+    .banner-left{  
+    }
+    .banner-title{
+        font-size:38px;
+    }
+    .collection-items{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .single-collection img{
+        width:100%;
+    }
+     .brands-box {
+        width:100%;
+    }
+    .accosories{
+        grid-template-columns: 1fr;
+    }
+    .accosories img{
+        width:100%;
+        height:350px;
+    }
+    .accories-details{
+        margin-left:0;
+    }
+    
+}
